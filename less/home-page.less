@@ -4,6 +4,12 @@
 
   .intro {
 
+    .hero-image {
+      background: url(../img/main-header.png) 50% 50% no-repeat;
+      background-size: cover;
+      height: 200px;
+    }
+
     h2 {
       padding: 15px;
     }
@@ -58,6 +64,15 @@
       }
 
       .btn {
+        .homeButton(black, 8px 20px, 5px);
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+
+        &:hover {
+          background: white;
+          color: black;
+        }
       }
     }
 
