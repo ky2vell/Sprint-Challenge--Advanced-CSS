@@ -162,6 +162,9 @@ p {
 }
 section.navigation {
   background: #f4f4f4;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
 }
 section.navigation .nav.container {
   display: flex;
@@ -195,6 +198,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 106px;
 }
 .home .intro .hero-image {
   background: url(../img/main-header.png) 50% 50% no-repeat;
