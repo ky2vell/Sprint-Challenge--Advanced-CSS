@@ -1,1 +1,19 @@
 // Mixins Here
+
+.h1Style() {
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
+.flexColumn() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeButton(@back, @pad, @rad) {
+    display: inline-block;
+    background: @back;
+    padding: @pad;
+    border-radius: @rad;
+}
